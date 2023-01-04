@@ -1,5 +1,5 @@
 # OmbuLabs::Notifications
-Short description and motivation.
+Source code for OmbuLabs notifications and Hubspot integration
 
 ## Usage
 How to use my plugin.

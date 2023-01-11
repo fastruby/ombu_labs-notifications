@@ -1,5 +1,5 @@
 # OmbuLabs::Notifications
-Source code for OmbuLabs notifications and Hubspot integration
+Source code for OmbuLabs notifications. 
 
 ## Usage
 This gem can be used in any of our sites to send email and slack notifications. The aim of this gem is to simplify things when we need to update some code when something is broken in all of our sites. 

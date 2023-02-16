@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ombu_labs-notifications (0.1.1)
+    ombu_labs-notifications (0.1.2)
       rails (>= 6.0)
       sidekiq (>= 5.0)
       slack-notifier (>= 2.4.0)

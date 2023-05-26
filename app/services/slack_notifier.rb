@@ -15,7 +15,7 @@ class SlackNotifier
       ```
       Email: #{contact.email}
       How they found us: #{contact.found_us}
-      Request Type: #{contact["request_type"]&.titleize}\n
+      Request Type: #{contact["request_type"]&.titleize || contact["product"]&.titleize}\n
       In House Developers: #{contact["in_house_developers"]}\n
       They plan to start at: #{contact["starting_at"]}\n
       Cheers,\nYour OmbuLabs Robot!

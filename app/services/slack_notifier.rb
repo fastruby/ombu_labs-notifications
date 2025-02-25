@@ -33,6 +33,7 @@ class SlackNotifier
       Hello <!subteam^#{ENV["SLACK_GROUP_ID"]}>!\n
       #{free_roadmap.name.titleize} has submitted a request in our Free Roadmap form :tada: :
       Email: #{free_roadmap.email}
+      Company: #{free_roadmap.company}
       Current Ruby Version: #{free_roadmap.current_ruby_version}
       Current Rails Version: #{free_roadmap.current_rails_version}
       Target Rails Version: #{free_roadmap.target_rails_version}
